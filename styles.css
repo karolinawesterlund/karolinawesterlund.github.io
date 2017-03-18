@@ -1,5 +1,5 @@
 body { 
-    background-color: #F6E6E6;
+    background-color: #F8ECE0;
 }
 
 h2 {
@@ -12,7 +12,7 @@ p 	{font-size: 16px;
 }
 
 .page-margin {
-	margin-top: 50px;
+	margin-top: 60px;
 }
 
 .center-div {
@@ -37,8 +37,8 @@ p 	{font-size: 16px;
 
 .sub-heading { 
 	color: #070719;
-	font-size:22px;
-	font-family: helvetica
+	font-size: 22px;
+	font-family: "apercu";
 }
 
 .intro-text {
@@ -49,12 +49,11 @@ p 	{font-size: 16px;
 	padding-left: 10%;
 	padding-right: 10%;
 	padding-bottom: 20px;
-	padding-top: 20px;	
 }
 
 .links {
-	padding-right: 3%; 
-	padding-left: 3%; 
+	padding-right: 1%; 
+	padding-left: 1%; 
 	padding-bottom: 30px;
 }
 
@@ -65,23 +64,25 @@ p 	{font-size: 16px;
 
 .container {
 	width: 100%;
-
-}
+	}
 
 .bottom-container {
-	background-color: #D8D8D8;
+	background-color: #848484;
 	padding-top: 20px;	
 	padding-bottom: 50px;
 }
 
 @media only screen and (min-width: 760px) {
-	.work	{
-		background-color: #D8D8D8;
-	}
 
 	.float {
 		float: left;
 		width: 33%;
+	}
+	.paragraph {
+		max-width: 500px;
+		text-align: center;	
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 
