@@ -1,10 +1,10 @@
-body { 
-    background-color: #F8ECE0;
+body {    
+	background-color: #F8ECE0;
 }
 
 h2 {
 	font-size: 18px;
-	font-family: "helvetica"; 
+	font-family: "apercu"; 
 }
 
 p 	{font-size: 16px;
@@ -23,6 +23,10 @@ p 	{font-size: 16px;
     border-radius: 50%;
 }
 
+.image-corners {
+    border-radius: 10%;
+}
+
 .portrait {
 	width: 300px;
 	height: 300px;
@@ -33,6 +37,7 @@ p 	{font-size: 16px;
 	color: #070719;
 	font-size:28px;
 	font-family: "apercu"; 
+	position: center;
 }
 
 .sub-heading { 
@@ -43,18 +48,21 @@ p 	{font-size: 16px;
 
 .intro-text {
 	font-size:22px;
-	font-family: helvetica
+	font-family: "apercu"
 }
 .paragraph {
 	padding-left: 10%;
 	padding-right: 10%;
 	padding-bottom: 20px;
+	font-family: "apercu"
 }
 
 .links {
 	padding-right: 1%; 
 	padding-left: 1%; 
 	padding-bottom: 30px;
+	color: #FF00A6;
+	font-family: "apercu"
 }
 
 .work {
@@ -62,21 +70,29 @@ p 	{font-size: 16px;
 	margin-bottom: 50px;
 }
 
-.container {
-	width: 100%;
-	}
-
-.bottom-container {
-	background-color: #848484;
-	padding-top: 20px;	
-	padding-bottom: 50px;
+.work-text {
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
-@media only screen and (min-width: 760px) {
+.container {
+	width: 100%;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	}	
 
+.bottom-container {
+	padding-top: 30px;	
+	padding-bottom: 50px;
+	background-color: #BDBDBD;	
+}
+
+@media only screen and (min-width: 760px) {	
 	.float {
 		float: left;
 		width: 33%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	.paragraph {
 		max-width: 500px;
